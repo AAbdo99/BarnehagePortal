@@ -1,0 +1,110 @@
+project:
+  name: BarnehagePortal
+  description: >
+    En ansattportal for barnehageansatte, inspirert av WinTid MinSide.
+    Prosjektet brukes som portfolio for backend- og fullstack-utvikling.
+
+goals:
+  - Demonstrere Clean Architecture i .NET
+  - Bygge sikker autentisering med JWT
+  - Modellere HR-domene (ansatte, fravær, ferie, overtid)
+  - Lage mobilvennlig frontend med Blazor
+  - Bruke Docker og AWS Free Tier
+  - Versjonskontroll med GitHub
+
+technology_stack:
+  backend:
+    framework: ASP.NET Core Web API
+    language: C#
+    runtime: .NET 8
+  frontend:
+    framework: Blazor WebAssembly
+    language: C#
+    focus: Mobile-first design
+  database:
+    type: Relational
+    planned: PostgreSQL or SQL Server
+    orm: Entity Framework Core
+  authentication:
+    method: JWT
+    identity: ASP.NET Identity
+  devops:
+    containerization: Docker
+    hosting: AWS Free Tier
+    ci_cd: GitHub Actions
+  tooling:
+    ide: Visual Studio Code
+    version_control: Git
+    documentation: YAML + Markdown
+
+architecture:
+  pattern: Clean Architecture (light)
+  layers:
+    - Api
+    - Application
+    - Domain
+    - Infrastructure
+    - Client
+
+project_structure:
+  root: BarnehagePortal
+  projects:
+    Api:
+      responsibility: HTTP endpoints, authentication, middleware
+      folders:
+        - Auth
+        - Controllers
+        - Extensions
+        - Middleware
+    Application:
+      responsibility: Business logic and use cases
+      folders:
+        - DTOs
+        - Interfaces
+        - Services
+        - Validators
+    Domain:
+      responsibility: Core business domain
+      folders:
+        - Entities
+        - Enums
+        - ValueObjects
+    Infrastructure:
+      responsibility: External concerns (DB, Identity, repositories)
+      folders:
+        - Data
+        - Identity
+        - Repositories
+        - Migrations
+    Client:
+      responsibility: Frontend UI
+      framework: Blazor WebAssembly
+      folders:
+        - Pages
+        - Layout
+        - wwwroot
+
+setup_steps:
+  - step: 1
+    title: Opprettet løsning og prosjekter
+    details:
+      - Opprettet .NET solution
+      - Opprettet Api og Client
+      - Flyttet alt til felles root-mappe
+  - step: 2
+    title: Etablert Clean Architecture
+    details:
+      - Opprettet Domain, Application og Infrastructure
+      - Lagt til prosjekt-referanser
+      - Fjernet placeholder-klasser
+      - Opprettet mapper per lag
+  - step: 3
+    title: Strukturklar for videre utvikling
+    details:
+      - Klar for autentisering
+      - Klar for database og EF Core
+      - Klar for frontend-arbeid
+
+status:
+  current_phase: Foundation
+  next_step: Authentication (ASP.NET Identity + JWT)

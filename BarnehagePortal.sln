@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnehagePortal.Api", "Barnehageportal.Api\BarnehagePortal.Api.csproj", "{88D7626E-0BAA-4B41-AAD4-7733B94E1279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnehagePortal.Client", "BarnehagePortal.Client\BarnehagePortal.Client.csproj", "{0C381B3C-9F76-4C05-BA5F-1C19B60C7A3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnehagePortal.Domain", "BarnehagePortal.Domain\BarnehagePortal.Domain.csproj", "{F0D2A13A-A76D-40DC-8CFC-6924292E32DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barnehageportal.Application", "BarnehagePortal.Application\Barnehageportal.Application.csproj", "{FCE81284-9F5E-439C-B835-EC7D56322874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnehagePortal.Infrastructure", "BarnehagePortal.Infrastructure\BarnehagePortal.Infrastructure.csproj", "{D5A5A13C-421C-49A4-8B08-CC7CE0686538}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88D7626E-0BAA-4B41-AAD4-7733B94E1279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D7626E-0BAA-4B41-AAD4-7733B94E1279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D7626E-0BAA-4B41-AAD4-7733B94E1279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D7626E-0BAA-4B41-AAD4-7733B94E1279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C381B3C-9F76-4C05-BA5F-1C19B60C7A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C381B3C-9F76-4C05-BA5F-1C19B60C7A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C381B3C-9F76-4C05-BA5F-1C19B60C7A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C381B3C-9F76-4C05-BA5F-1C19B60C7A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0D2A13A-A76D-40DC-8CFC-6924292E32DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D2A13A-A76D-40DC-8CFC-6924292E32DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0D2A13A-A76D-40DC-8CFC-6924292E32DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0D2A13A-A76D-40DC-8CFC-6924292E32DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCE81284-9F5E-439C-B835-EC7D56322874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE81284-9F5E-439C-B835-EC7D56322874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE81284-9F5E-439C-B835-EC7D56322874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE81284-9F5E-439C-B835-EC7D56322874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A5A13C-421C-49A4-8B08-CC7CE0686538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A5A13C-421C-49A4-8B08-CC7CE0686538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A5A13C-421C-49A4-8B08-CC7CE0686538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A5A13C-421C-49A4-8B08-CC7CE0686538}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
