@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BarnehagePortal.Application\Barnehageportal.Application.csproj" />
+    <ProjectReference Include="..\BarnehagePortal.Application\BarnehagePortal.Application.csproj" />
     <ProjectReference Include="..\BarnehagePortal.Infrastructure\BarnehagePortal.Infrastructure.csproj" />
   </ItemGroup>
 

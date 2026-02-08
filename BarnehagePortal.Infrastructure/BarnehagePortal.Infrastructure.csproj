@@ -2,7 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BarnehagePortal.Domain\BarnehagePortal.Domain.csproj" />
-    <ProjectReference Include="..\BarnehagePortal.Application\Barnehageportal.Application.csproj" />
+    <ProjectReference Include="..\BarnehagePortal.Application\BarnehagePortal.Application.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

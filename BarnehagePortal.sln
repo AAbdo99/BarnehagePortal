@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnehagePortal.Client", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnehagePortal.Domain", "BarnehagePortal.Domain\BarnehagePortal.Domain.csproj", "{F0D2A13A-A76D-40DC-8CFC-6924292E32DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barnehageportal.Application", "BarnehagePortal.Application\Barnehageportal.Application.csproj", "{FCE81284-9F5E-439C-B835-EC7D56322874}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnehagePortal.Application", "BarnehagePortal.Application\BarnehagePortal.Application.csproj", "{FCE81284-9F5E-439C-B835-EC7D56322874}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnehagePortal.Infrastructure", "BarnehagePortal.Infrastructure\BarnehagePortal.Infrastructure.csproj", "{D5A5A13C-421C-49A4-8B08-CC7CE0686538}"
 EndProject
